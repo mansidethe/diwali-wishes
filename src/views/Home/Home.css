@@ -1,0 +1,116 @@
+.greeting-container{
+    background-color: #aceefb;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #9c9999;
+    padding:40px 20px;
+    position: relative;
+    width: 50%;
+    display: block;
+    margin: 30px auto;
+ height: 180px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-weight: bold;
+   
+}
+
+.from-text{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.lamp-img{
+width: 100px;
+box-shadow:0 0 10px #9c9999 ;
+   margin-right: 40px;
+   border-radius: 60px;
+}
+.to-text{
+    margin-top: 100px;
+    font-size: 25px;
+}
+.greeting-text{
+    font-size: 20px;
+}
+.input-box{
+    margin: 20px;
+    padding: 12px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.theme-1{ 
+   
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #f268b6 0%, #784BA0 50%, #75b0db 100%);
+}
+.theme-2{
+    background-color: #29b941;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+        
+}
+.theme-3{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #0008ff 100%);
+    
+   }
+.theme-4{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);    
+}
+.theme-5{
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);  
+    
+}
+.create-your-own{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.link-url{
+    text-align: center;
+    background-color: #e6ffff;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.copy-img{
+    margin-left: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .greeting-container{
+        width: 80%;
+    }
+    .greeting-text{
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .create-your-own{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .from-text{
+        font-size: 18px;
+        font-weight:700;
+    }
+    .to-text{
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    .lamp-img{
+        height: 70px;
+    }
+    
+    .link-generate{
+        width: 90%;
+        position: relative;
+        padding-top: 30px;
+    }
+   
+}
